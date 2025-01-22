@@ -1,0 +1,13 @@
+HelmChartPath: ''
+RuntimeType: Container
+ServiceType: private
+ArtifactSourceType: DockerCompose
+ServiceBuildRegion: ap-southeast-1
+RepoName: JJGGu/AFFiNE
+DockerComposeEnvPath: .docker/selfhost/.env.example
+RegionId: cn-hangzhou
+CustomParameters: ''
+DockerComposeYamlPath: .docker/selfhost/compose.yml
+Owner: JJGGu
+Branch: canary
+Platform: github
